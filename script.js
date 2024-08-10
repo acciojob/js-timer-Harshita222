@@ -1,5 +1,5 @@
 // write js code here if required
- const value = document.getElementById('timer')
+ const value = document.getElementById('timer');
 function CurrentTime() {
 
 let date = new Date();
@@ -10,7 +10,7 @@ let year = date.getFullYear();
 let hour = date.getHours();
 let minutes = date.getMinutes();
 let seconds = date.getSeconds();
-}
+
 value.textContent = `${day}/${month}/${year},
 ${hour}:${minutes}:${seconds}`;
 }
